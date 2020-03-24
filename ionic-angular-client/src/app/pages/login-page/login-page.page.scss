@@ -1,0 +1,33 @@
+.header{
+    background-image: url('../../../assets/login-header.jpg');
+    height: 50vh;
+    background-size: cover;
+}
+.login-box{
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .header {
+        height: 100vh;
+    }
+    .login-box.middle{
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        text-align: center;
+        padding: 25px;
+        background: rgba(255,255,255,0.7);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .header {
+        height: 50vh;
+    }
+    .login-box.bottom{
+        display: block;
+        text-align: center;
+    }
+}
