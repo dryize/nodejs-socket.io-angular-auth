@@ -18,7 +18,7 @@
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "envalid": "^6.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "googleapis": "^48.0.0",
     "helmet": "^3.21.3",
     "hpp": "^0.2.3",
